@@ -1,0 +1,14 @@
+/* Here we will put some styles */
+#attention {
+    text-decoration: underline;
+    background-color: rgba(214, 207, 207, 0.6);
+    color: cornflowerblue;
+}
+span {
+    color: black;
+}
+
+.smth {
+    background-color: brown;
+    color: white;
+}
