@@ -56,7 +56,7 @@ var myArray3 = {
 myArray3.test();
 // We can see that this takes the last element it is written to
 // This can be user instead of calling up test function when:
-var myArragiry3 = {
+var myArray3 = {
     name: "Lipnica",
     capacity: 10000,
     burns: function() {console.log("We will never give up!");
