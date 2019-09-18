@@ -18,7 +18,7 @@ var birthday = new Date(1264, 2, 24, 13, 14, 07);
 console.log(birthday.getFullYear());
 //Month
 console.log(birthday.getMonth());
-//Day
+//Day - tells us which day of week is it from 0-6 where 0 == Sunday, 6 == Saturday
 console.log(birthday.getDay());
 //hour
 console.log(birthday.getHours());
