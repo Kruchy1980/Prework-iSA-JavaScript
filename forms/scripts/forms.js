@@ -25,7 +25,7 @@ myInfo.onsubmit = function() {
         return false;
     } else {
         messeageonsub.innerHTML = "";
-        return true;
+        return true;gi
     }
 }
 
