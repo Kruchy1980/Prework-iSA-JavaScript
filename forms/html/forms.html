@@ -1,0 +1,40 @@
+<!-- First we have to create HTML Frame -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Jakub Kruszyński">
+    <title>Forms</title>
+    <link rel="stylesheet" href="../css/forms.css">
+</head>
+<body>
+    <h1>Couple Basics about JS - Forms - Elements + Validation</h1> <hr>
+    <div id="content">
+        <p>Forms are simple frames for collecting informations.</p>
+    </div> <hr>
+    <form id="my-Form" name="myForm" action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Enter Your Name"><br>
+        <label for="#">Hobbies:</label> <br>
+        <input type="checkbox" name="biking" value="Biking">Biking <br>
+        <input type="checkbox" name="diving" value="Diving">Diving <br>
+        <input type="checkbox" name="jogging" value="Jogging">Jogging <br>
+        <label for="colour">Favorite colour: </label>
+        <select name="colour" id="kol">
+            <option value="Red">Red</option>
+            <option value="Grey">Grey</option>
+            <option value="Yellow">Yellow</option>
+        </select> <br>
+        <input type="submit" name="submit" value="Submit">
+
+    </form>
+
+    <div id="messonsub"></div>
+
+
+
+    <script src="../scripts/forms.js"></script>
+</body>
+</html>
